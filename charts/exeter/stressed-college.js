@@ -6,7 +6,7 @@
  */
 $(function () {
   $('#general .exeter.stressed-college').highcharts({
-    colors: ['#fc2531', '#ea1b27', '#da111e', '#ce0a18', '#c10311',  '#b2020e', '#9f040f', '#8c0710', '#6f0c12', '#580f13'],
+    colors: ['#fae0e0', '#f7bbbb', '#f49a9a', '#ed7878', '#e66060',  '#db5151', '#c93b3b', '#be2d2d', '#a22', '#8d0c0c'],
     chart: {
       type: 'bar'
     },
