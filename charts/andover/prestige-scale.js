@@ -6,7 +6,7 @@
  */
 $(function () {
   $('#general .andover.prestige-scale').highcharts({
-    colors: ['#082B55', '#125AB2', '#178DE7', '#65B9FC', '#ABDCFD'],
+    colors: ['#def2fa', '#b9e0f7', '#9cd6f4', '#79c4ed', '#60b6e6', '#52a7dc' , '#3b89c9' , '#2d7abf' , '#2265ab', '#0c508c'],
     chart: {
       type: 'column'
     },

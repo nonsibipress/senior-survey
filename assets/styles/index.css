@@ -22,7 +22,7 @@ body {
 }
 
 .wrapper header {
-  background: url(../images/cover-blue.png) no-repeat center center;
+  background: url(../images/cover-red.png) no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 600px;
@@ -55,7 +55,7 @@ body {
 
 .wrapper header nav {
   width: 100%;
-  background-color: #001F3F;
+  background-color: #800A09;
   height: 60px;
   box-sizing: border-box;
   bottom: 0;
@@ -83,7 +83,7 @@ body {
 
 .wrapper header nav h3 {
   display: none;
-  color: rgba(101, 185, 252, 0.5);
+  color: rgba(252, 67, 62, 0.5);
   line-height: 60px;
   margin-left: 15px;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .wrapper header nav ul li a {
-  color: #7FBFFF;
+  color: #fc504a;
   text-decoration: none;
   height: 60px;
   top: 0;
@@ -122,13 +122,13 @@ body {
 }
 
 .wrapper header nav ul li:hover {
-  background-color: #1A3959;
+  background-color: #921717;
 }
 
 .wrapper article {
   margin: 75px auto 75px auto;
   padding: 0 10%;
-  border-bottom: 1px dotted #001F3F;
+  border-bottom: 1px dotted #800A09;
   padding-bottom: 50px;
 }
 
@@ -136,12 +136,12 @@ body {
   margin-bottom: 1px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #001F3F;
+  color: #6b0000;
 }
 
 .wrapper article .content {
   font-family: 'Open Sans', sans-serif;
-  color #001F3F;
+  color #6b0000;
 }
 
 .wrapper article p {
@@ -152,7 +152,7 @@ body {
   margin: 0 auto;
   padding: 75px 10% 75px 10%;
   background-color: #FAFAFA;
-  border-bottom: 1px dotted #001F3F;
+  border-bottom: 1px dotted #800A09;
 }
 
 .wrapper section {
@@ -160,7 +160,7 @@ body {
 }
 
 .wrapper section {
-  color: #001F3F;
+  color: #6b0000;
 }
 
 .wrapper section h1 {
@@ -169,7 +169,7 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   margin: 25px 0 35px 0;
-  color: #001F3F;
+  color: #6b0000;
 }
 
 .wrapper section p {

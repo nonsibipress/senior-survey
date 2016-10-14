@@ -6,7 +6,7 @@
  */
 $(function () {
   $('#general .exeter.prestige-scale').highcharts({
-    colors: ['#580306', '#870309', '#C70A14', '#E73035', '#FC6567', '#FDAEAF'],
+    colors: ['#fae0e0', '#f7bbbb', '#f49a9a', '#ed7878', '#e66060',  '#db5151', '#c93b3b', '#be2d2d', '#a22', '#8d0c0c'],
     chart: {
       type: 'column'
     },
