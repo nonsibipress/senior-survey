@@ -32,7 +32,7 @@ $(function () {
       formatter: columnToolTipFormatter
     },
     series: [{
-      data: [48.72, 20.17, 11.11],
+      data: [48.72, 40.17, 11.11],
       showInLegend: false
     }]
   });
