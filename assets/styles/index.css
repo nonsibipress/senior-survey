@@ -91,7 +91,7 @@ body {
 .wrapper header nav ul li {
   float: left;
   list-style: none;
-  width: 16.6%;
+  width: 25%;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -182,15 +182,17 @@ body {
 
 .wrapper section .content {
   width: 100%;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-.wrapper section .content .chart {
+.wrapper section .content .chart, .wrapper section .content .quotebox {
   width: 47%;
   float: left;
   padding-right: 3%;
   margin-top: 35px;
   margin-bottom: 35px;
+  height: 450px;
 }
 
 .wrapper section .content .chart.full {
@@ -252,6 +254,10 @@ footer h3 {
   .wrapper section .content .chart {
     width: 100%;
   }
+  .wrapper section .content .quotebox {
+    padding: 0;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width : 640px) {
@@ -286,4 +292,24 @@ footer h3 {
   .wrapper header nav:hover ul {
     display: block;
   }
+}
+
+.pull-right {
+  text-align: right;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h2.andover {
+  color: #58A3DF;
+}
+
+h2.exeter {
+  color: #c10311;
+}
+
+h2 + p {
+  padding-bottom: 30px;
 }

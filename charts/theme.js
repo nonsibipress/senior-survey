@@ -88,6 +88,7 @@ Highcharts.theme = {
     verticalAlign: 'bottom',
     backgroundColor: null,
     borderWidth: 0,
+    symbolRadius: 0,
     shadow: false
   },
   tooltip: {

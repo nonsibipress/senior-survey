@@ -26,6 +26,15 @@ var percentageToolTipFormatter = function() {
   return '<b>' + this.x + ': ' + this.series.name + "</b><br>Responses: <b>" + this.y + "</b><br>Percentage: <b>" + Math.round(100 * this.percentage) / 100 + "%</b>"
 };
 
+var stackedBarToolTipFormatter = function() {
+  var t = 0;
+  this.series.data.forEach(function(e) {
+    t += e.y;
+  });
+  var percentage = Math.round(this.y / t * 1e4) / 100;
+  return "</b>Percentage: <b>" + Math.round(100 * this.percentage) / 100 + "%</b>"
+};
+
 var columnToolTipFormatter = function() {
   var t = 0;
   this.series.data.forEach(function(e) {
