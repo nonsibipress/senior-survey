@@ -8,7 +8,7 @@ $(function () {
   $('#general .exeter.schools-applying').highcharts({
     colors: ['#580306', '#870309', '#C70A14', '#E73035', '#FC6567', '#FDAEAF'],
     chart: {
-      type: 'column'
+      type: 'bar'
     },
     xAxis: {
       categories: [
