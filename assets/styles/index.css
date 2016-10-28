@@ -299,17 +299,18 @@ footer h3 {
 }
 
 h2 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 
-h2.andover {
+.andover h2 {
   color: #58A3DF;
 }
 
-h2.exeter {
+.exeter h2 {
   color: #c10311;
 }
 
 h2 + p {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }

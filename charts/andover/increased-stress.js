@@ -6,7 +6,7 @@
  */
 $(function () {
   $('#general .andover.increased-stress').highcharts({
-    colors: ['#082B55', '#125AB2', '#178DE7', '#65B9FC', '#ABDCFD'],
+    colors: ['#0c508c', '#2d7abf', '#52a7dc','#79c4ed', '#b9e0f7', '#def2fa'],
     chart: {
       type: 'bar'
     },

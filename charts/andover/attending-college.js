@@ -6,7 +6,7 @@
  */
 $(function () {
   $('#general .andover.attending-college').highcharts({
-    colors: ['#125AB2', '#65B9FC', '#ABDCFD'],
+    colors: ['#0c508c', '#2d7abf', '#52a7dc','#79c4ed', '#b9e0f7', '#def2fa'],
     chart: {
       type: 'column'
     },

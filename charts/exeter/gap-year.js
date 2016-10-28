@@ -6,7 +6,7 @@
  */
 $(function () {
   $('#general .exeter.gap-year').highcharts({
-    colors: ['#580306', '#870309', '#C70A14', '#E73035', '#FC6567', '#FDAEAF'],
+    colors: ['#8d0c0c', '#be2d2d', '#db5151',  '#ed7878', '#f7bbbb', '#fae0e0'],
     chart: {
       type: 'column'
     },
