@@ -270,10 +270,10 @@ footer h3 {
   }
 
   .wrapper header nav ul, .wrapper header nav:active ul {
-    border-top: 1px dotted #1A3959;
+    border-top: 1px dotted #E83738;
     display: none;
     position: absolute;
-    background: #001F3F;
+    background: #7E0D10;
     top: 60px;
     width: 100%;
   }
